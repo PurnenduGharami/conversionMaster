@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=100, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;800;900&family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Convertion Master</title>
+</head>
+
+<body>
+
+  <div class="header-section">
+    <h1 class="title">Convertion Master</h1>
+    <p class="description">
+      Convert Length, Mass and Time into different scales.<br>
+       First write the ammount that you want to convert
+       Then select the scale that is now.<br>
+       Now press Convert<br>
+       You will get different scales of that ammount.   
+    </p>
+  </div>
+
+  <div class="buttons-section">
+    <button class="length-btn" id="length-btn">Length</button>
+    <button class="mass-btn" id="mass-btn">Mass</button>
+    <button class="time-btn" id="time-btn">Time</button>
+  </div>
+
+  <div class="input-section">
+
+    <div class="input-number"><input type="number"></div>
+    <div class="select">
+      <select name="convertLength" id="convertLength">
+        <option value="Convertfrom">Convert from</option>
+        <option value="centimetre">Centimetre</option>
+        <option value="millimeter">Millimeter</option>
+        <option value="micrometres">micrometres</option>
+        <option value="nanometre">Nanometre</option>
+        <option value="kilometre">kilometre</option>
+        <option value="Mile">Mile</option>
+        <option value="Yard">Yard</option>
+        <option value="Foot">Foot</option>
+        <option value="Inch">Inch</option>
+        <option value="nauticalMile">Nautical mile</option>
+
+      </select>
+
+      <select name="convertMass" id="convertMass">
+        <option value="Convertfrom">Convert from</option>
+        <option value="Kilogram">Kilogram</option>
+        <option value="Gram">Gram</option>
+        <option value="Milligram">Milligram</option>
+        <option value="Microgram">Microgram</option>
+        <option value="Pound">Pound</option>
+        <option value="Ounce">Ounce</option>
+      </select>
+
+      <select name="convertTime" id="convertTime">
+        <option value="Convertfrom">Convert from</option>
+        <option value="Nanosecond">Nanosecond</option>
+        <option value="Microsecond">Microsecond</option>
+        <option value="Millisecond">Millisecond</option>
+        <option value="Second">Second</option>
+        <option value="Minute">Minute</option>
+        <option value="Hour">Hour</option>
+        <option value="Day">Day</option>
+        <option value="Week">Week</option>
+        <option value="Month">Month</option>
+      </select>
+
+    </div>
+
+
+  </div>
+
+  <div class="convert-section">
+    <button class="convert-btn" id="convert">Convert</button>
+  </div>
+
+  <div class="displayResult result-Section"></div>
+
+
+
+  <script src="./convert.js"></script>
+</body>
+
+</html>

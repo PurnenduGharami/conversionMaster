@@ -1,0 +1,134 @@
+
+body{
+    background: #EEEEEE;
+ 
+    display: grid;
+    grid-template-areas: 
+                  'title title title'
+                  'button-o button-o button-o'
+                  'input input input'
+                  'convert convert convert'
+                  'result result result';
+   gap: 1rem;
+   text-align: center;
+   padding-left: 2rem;
+   padding-right: 4rem;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+}
+p{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1rem;
+    color: #f0f7dbda;
+}
+button{
+    height: 3rem;
+    width: 10.5rem;
+    border: none;
+    border-radius: 0.8rem;
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+input{
+    height: 2.6rem;
+    width: 20.8rem;
+    border:  0.01rem solid #FF6464;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+select{
+    height: 3rem;
+    width: 10.4rem;
+    border:  0.01rem solid #FF6464;
+    border-radius: 0.8rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+option{
+    
+
+}
+.description{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2rem;
+    color: black;
+
+}
+
+.hide{
+    display: none;
+}
+.title{
+    font-size: 4.4rem;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+
+}
+.header-section{
+    grid-area: title;
+}
+.length-btn{
+  background-color:#FF3D31 ;
+}
+.mass-btn{
+    background-color:#2EC4B6 ;
+
+}
+.time-btn{
+    background-color:#FF971C ;
+
+}
+.convert-btn{
+    background: linear-gradient(90.17deg, #FF9F1C 4.97%, #FF0F0F 92.4%, #FF0F0F 100.89%);
+
+}
+.input-number{
+    
+    display: inline-block;
+    
+}
+.select{
+    display: inline-block;
+   
+}
+.input-section{
+    grid-area: input;
+    
+}
+.result-Section{
+    margin-top: 2rem;
+
+ grid-area: result;
+
+
+}
+.buttons-section{
+    grid-area: button-o;
+
+}
+
+
+.convert-section{
+ 
+    grid-area: convert;
+    
+}
+.convert-btn{
+    height: 3rem;
+    width: 32rem;
+
+
+}
+.resultbox{
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.8rem;
+    display: inline-block;
+}
