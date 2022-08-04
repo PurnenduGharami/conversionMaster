@@ -11,8 +11,7 @@ body{
                   'result result result';
    gap: 1rem;
    text-align: center;
-   padding-left: 2rem;
-   padding-right: 4rem;
+  
 }
 h1{
     font-size: 2rem;
@@ -51,10 +50,7 @@ select{
     text-align: center;
     text-transform: capitalize;
 }
-option{
-    
 
-}
 .description{
     font-family: 'Montserrat', sans-serif;
     margin-top: -2rem;
@@ -132,3 +128,17 @@ option{
     border-radius: 0.8rem;
     display: inline-block;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  button{
+    width: 9.3rem;
+  }
+  select{
+    width: 7rem;
+  }
+
+  .convert-btn{
+    width: 28.5rem;
+}
+  }
