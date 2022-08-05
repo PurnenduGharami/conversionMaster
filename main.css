@@ -67,6 +67,19 @@ select{
     color: black;
 
 }
+.sub-title{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.s-t-2{
+    font-weight: 500;
+}
+.description-steps{
+    color: black;
+   display: inline-block;
+   text-align: left;
+}
 .header-section{
     grid-area: title;
 }
@@ -141,4 +154,28 @@ select{
   .convert-btn{
     width: 28.5rem;
 }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .title{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+  
+    button{
+        width: 6rem;
+        font-size: 1rem;
+      }
+      input{
+        width: 11rem;
+      }
+      select{
+        width: 6.7rem;
+      }
+    
+      .convert-btn{
+        width: 18.5rem;
+    }
   }
